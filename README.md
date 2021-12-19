@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Module 1 - Capstone Project
 
-> One paragraph statement about the project.
+> Building my first Captone project to apply the concepts learned in order to enhance my skills in HTML, CSS & JavaScript.
 
 ![screenshot](./app_screenshot.png)
 
@@ -11,8 +11,9 @@ Additional description about the project and its features.
 ## Built With
 
 - Major languages
-- Frameworks
-- Technologies used
+- HTML
+- JavaScript
+- CSS
 
 ## Live Demo
 
@@ -21,44 +22,24 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**To get a copy of this repo into your local machine run the following command:**
+```
+git clone https://github.com/Mwapsam/capstone-m1 
+cd the-portal-capstone
+in visual studio code you can click the go live button to view it live in the browser.
+```
+
+## Author
+
+👤 **Samuel Chimfwembe**
+
+- GitHub: [@Tchilo](https://github.com/Mwapsam)
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
@@ -66,11 +47,8 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
+- Original design idea by
+[Cindy Shin in Behance](https://www.behance.net/adagio07)
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
