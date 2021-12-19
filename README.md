@@ -33,7 +33,7 @@ in visual studio code you can click the go live button to view it live in the br
 
 👤 **Samuel Chimfwembe**
 
-- GitHub: [@Tchilo](https://github.com/Mwapsam)
+- GitHub: [@Mwapsam](https://github.com/Mwapsam)
 
 
 
