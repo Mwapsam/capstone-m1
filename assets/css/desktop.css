@@ -1,0 +1,345 @@
+@media screen and (min-width: 768px) {
+  .smallMenu {
+    background-color: #272a31;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+  }
+
+  .darkMenu {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 135px;
+    padding-top: 5px;
+  }
+
+  .social {
+    font-size: 15px;
+  }
+
+  time {
+    line-height: 38px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #504f4f;
+  }
+
+  .darkMenu li {
+    margin-right: 15px;
+  }
+
+  .darkMenu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .bigMenu {
+    display: block;
+    background-color: #fff;
+  }
+
+  .bigMenu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 150px;
+  }
+
+  .bigMenu ul a {
+    display: block;
+    color: #afafaf;
+    font-size: 15px;
+    font-weight: 50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .bigMenu ul a:hover {
+    color: #ec5242;
+  }
+
+  .webinar {
+    border: solid #d84d40;
+    border-width: 5px;
+    border-radius: 5px;
+  }
+
+  .logo {
+    display: block;
+    margin-right: 550px;
+  }
+
+  .logo img {
+    height: 30px;
+    width: auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .containerOne {
+    background-image: url('../img/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+  }
+
+  .imageDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    margin-bottom: 6px;
+  }
+
+  .imageDiv h5 {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #504f4f;
+    font-size: 20px;
+  }
+
+  .imageDiv h3 {
+    font-family: 'Lato', sans-serif;
+    color: #d84d40;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .imageDiv h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .imageDiv p {
+    font-family: 'Lato', sans-serif;
+    border: 3px solid white;
+    background-color: rgb(245, 241, 241);
+    padding: 10px 10px;
+    font-size: 18px;
+    width: 71%;
+  }
+
+  .textBox {
+    width: 65%;
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+  .progContainer {
+    display: flex;
+    flex-direction: row;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .programCards {
+    background-color: #222223;
+    margin: 0 0 0 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    width: 500px !important;
+    height: 300px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .programCards:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
+  }
+
+  .programCards div h3 {
+    color: #ec5242;
+    font-size: 19px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 90px;
+    margin-top: 37px;
+  }
+
+  .allPrograms h3 {
+    margin: 0 auto;
+    height: 70px;
+    text-decoration: honeydew;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+    width: 400px;
+  }
+
+  .programs {
+    background: #000;
+    padding-bottom: 12px;
+  }
+
+  .programs h2 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .programLine {
+    width: 35px;
+    height: 3px;
+    background-color: #ec5242;
+  }
+
+  .allPrograms hr {
+    width: 200px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 0;
+  }
+
+  .speakersGrid {
+    height: auto;
+    background: white;
+    margin: 15px 15px 10px 15px;
+    border-bottom: solid;
+    border-color: rgb(219, 214, 214);
+    border-width: 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding-bottom: 5px;
+  }
+
+  .speakersContainer {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gridImage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gridImage img {
+    max-width: 120px;
+    max-height: 130px;
+  }
+
+  .speakerDetails {
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speakerDetails h4 {
+    font-style: italic !important;
+    color: #ec5242;
+    padding: 0;
+    margin: 0;
+  }
+
+  .speakerDetails h4 {
+    font-style: italic !important;
+    color: #ec5242;
+    padding: 0;
+    margin: 0;
+  }
+
+  .quotes a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+
+  .speakers h2 {
+    text-align: center;
+  }
+
+  .partnersContainer {
+    background: #535256;
+    height: auto;
+  }
+
+  .partnersMain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partnersMain img {
+    filter: invert(1%) sepia(0%) saturate(0%) hue-rotate(311deg) brightness(102%) contrast(105%);
+  }
+
+  .partnersItem {
+    padding: 30px;
+  }
+
+  .mainTitle h2 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .footerDiv {
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 15px;
+    height: 150px;
+  }
+  
+  .patents {
+    padding-left: 5px;
+    font-size: 24px;
+    align-self: center;
+    justify-content: end;
+    width: 100%;
+    margin-left: 10px;
+    color: rgb(73, 72, 72);
+  }
+  
+  .coincityLogo {
+    align-self: center;
+    font-weight: 600;
+    font-size: 24px;
+    width: 100%;
+    text-align: end;
+  }
+
+  .footerText {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #a5a1a1;
+    font-size: 20px;
+    width: 80%;
+    padding-left: 12px;
+  }
+
+  .aboutFooter {
+    background: #000;
+    height: 200px;
+  }
+}

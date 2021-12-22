@@ -1,0 +1,295 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.cdnfonts.com/css/Lato');
+
+html {
+  background-color: #fff;
+  font-family: 'Cocogoose', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+    color: #ec5242;
+  }
+
+@media screen and (max-width: 768px) {
+  .darkMenu {
+    display: none;
+  }
+
+  .bigMenu {
+    display: none;
+  }
+
+  .bigMenu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 150px;
+  }
+
+  .bigMenu ul a {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .hamburger {
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 0;
+    border: #fff;
+    cursor: pointer;
+    color: #000211;
+    background-color: inherit;
+  }
+
+  .menuIcon {
+    font-size: 40px;
+    margin: 20px;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .containerOne {
+    background-image: url('../img/desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .imageDiv {
+    margin: 20px;
+  }
+
+  .imageDiv h3,
+  h1 {
+    color: #ec5242;
+  }
+
+  .imageDiv h3 {
+    font-family: 'Lato', sans-serif;
+    color: #d84d40;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .imageDiv p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #504f4f;
+    font-size: 20px;
+  }
+
+  .imageDiv h5 {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #504f4f;
+    font-size: 20px;
+  }
+
+  .textBox {
+    font-family: 'Lato', sans-serif;
+    border: 3px solid white;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 12px 12px;
+  }
+
+  time {
+    line-height: 38px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #504f4f;
+  }
+
+  .programs {
+    background-image: url('../img/programs.jpg');
+    padding-bottom: 12px;
+  }
+
+  .programs h2 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .programLine {
+    width: 25px;
+    height: 3px;
+    background-color: #ec5242;
+  }
+
+  .programCards {
+    background-image: url(../img/program-card.jpg);
+    background-repeat: repeat-x;
+    margin: 15px 15px 0 15px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 15% 30% 55%;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .programCards div h3 {
+    color: #ec5242;
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 90px;
+    margin-top: 37px;
+  }
+
+  .cardsColumn {
+    margin: auto;
+  }
+
+  .fa {
+    margin-top: 37px;
+  }
+
+  .allPrograms {
+    margin: 30px 35px 30px 35px;
+    height: 70px;
+    background: #ec5242;
+    text-align: center;
+    padding-top: 1px;
+  }
+
+  .allPrograms h3 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+  }
+
+  .speakersGrid {
+    height: auto;
+    background: white;
+    margin: 15px 15px 10px 15px;
+    border-bottom: solid;
+    border-color: rgb(219, 214, 214);
+    border-width: 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 5px;
+  }
+
+  .gridImage img {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .speakerDetails {
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speakerDetails h4 {
+    font-style: italic !important;
+    color: #ec5242;
+    padding: 0;
+    margin: 0;
+  }
+
+  .quotes a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+
+  .speakers h2 {
+    text-align: center;
+  }
+
+  .partnersContainer {
+    background: #535256;
+    height: 600px;
+  }
+
+  .mainTitle h2 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .partnersMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .partnersItem {
+      padding: 17px;
+  }
+
+  .footerDiv {
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 15px;
+    height: 150px;
+  }
+  
+  .patents {
+    padding-left: 5px;
+    font-size: 18px;
+    align-self: center;
+    justify-content: end;
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+  .coincityLogo {
+    align-self: center;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    text-align: end;
+  }
+
+  .logoFooter {
+    height: 30px;
+    width: auto;
+  }
+
+  .footerText {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #a5a1a1;
+    font-size: 20px;
+  }
+
+  .aboutFooter {
+    background: #000;
+    height: 300px;
+  }
+}
