@@ -191,7 +191,7 @@
   }
 
   .aboutImageDiv h3 {
-    font-weight: 300;
+    font-weight: 413;
     color: #f9412b;
     font-size: 20px;
     text-align: center;
@@ -373,6 +373,7 @@
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 13px;
+    font-weight: 550;
     color: #575757;
     background-color: #fff;
     text-align: center;
@@ -515,6 +516,7 @@
 
   .commons p {
     font-size: 12px;
+    font-weight: 550;
     text-align: center;
     padding: 0 30px;
     line-height: 1.5;

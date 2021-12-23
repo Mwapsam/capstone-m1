@@ -19,7 +19,11 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mwapsam.github.io/capstone-m1)
+
+## Demo Video Link
+
+[Watch Demo](https://www.loom.com/share/a8a80561e3474f7a9e21b2140f9e4d65)
 
 ## Getting Started
 
