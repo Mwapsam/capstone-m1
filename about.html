@@ -36,15 +36,15 @@
     </nav>
     <nav class="bigMenu">
       <ul>
-        <a class="logo" href="index.html"
+        <li><a class="logo" href="index.html"
           ><img src="assets/img/coins.png" alt="Logo image"
-        /></a>
+        /></a></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="#">Program</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="#">Sponsor</a></li>
-        <li><a href="#">News</a></li>
-        <li><a class="webinar" href="#">Webinar</a></li>
+        <li><a href="#events">News</a></li>
+        <li><a class="webinar" href="events">Webinar</a></li>
       </ul>
     </nav>
     <section class="containerOne">
@@ -52,6 +52,13 @@
         <i class="menuIcon material-icons">menu</i>
         <i class="closeIcon material-icons">close</i>
       </button>
+      <ul class="menu">
+        <li><a class="menuItem" href="index.html">Home</a></li>
+        <li><a class="menuItem" href="#programs">Program</a></li>
+        <li><a class="menuItem" href="about.html">About</a></li>
+        <li><a class="menuItem" href="#events">Sponsor</a></li>
+        <li><a class="menuItem" href="#events">News</a></li>
+      </ul>
       <div class="aboutImageDiv">
         <h3>
           "Blockchain & AI, <br />
@@ -87,7 +94,7 @@
       </div>
     </section>
 
-    <section class="commons">
+    <section class="commons" id="programs">
       <h2>Crypto City Launch 2022 Logo</h2>
       <hr />
 
@@ -106,7 +113,7 @@
       />
     </section>
 
-    <section class="events">
+    <section class="events" id="events">
       <h2>See the past Blockchain and AI events</h2>
       <hr />
       <p>
@@ -162,5 +169,6 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/about.js"></script>
   </body>
 </html>

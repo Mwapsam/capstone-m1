@@ -14,6 +14,7 @@
     flex-direction: row;
     padding-right: 135px;
     padding-top: 5px;
+    margin-top: 0;
   }
 
   .social {
@@ -29,6 +30,13 @@
 
   .darkMenu li {
     margin-right: 15px;
+  }
+
+  .quotes a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 12px;
   }
 
   .darkMenu li a {
@@ -124,7 +132,7 @@
     border: 3px solid white;
     background-color: #fff;
     padding: 10px 10px;
-    font-size: 18px;
+    font-size: 14px;
     width: 71%;
   }
 
@@ -153,8 +161,8 @@
     font-family: 'Lato', sans-serif;
     color: #fff;
     width: 500px !important;
-    height: 300px;
-    font-size: 17px;
+    height: auto;
+    font-size: 15px;
     align-items: center;
     text-align: center;
     transition: transform 0.2s ease-in-out;
@@ -163,15 +171,6 @@
   .programCards:hover {
     transform: scale(1.1);
     border: 2px solid #fff;
-  }
-
-  .programCards div h3 {
-    color: #ec5242;
-    font-size: 19px;
-    font-weight: bold;
-    word-wrap: break-word;
-    width: 90px;
-    margin-top: 37px;
   }
 
   .allPrograms h3 {
@@ -184,6 +183,30 @@
     font-size: 24px;
     padding-top: 20px;
     width: 400px;
+  }
+
+  .speakerDetails h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aboutImageDiv h3 {
+    font-weight: 300;
+    color: #f9412b;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .programCards div h3 {
+    color: #ec5242;
+    font-size: 19px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 90px;
+    margin-top: 37px;
   }
 
   .programs {
@@ -247,23 +270,11 @@
     flex-direction: column;
   }
 
-  .speakerDetails h3 {
-    margin: 0;
-    padding: 0;
-  }
-
   .speakerDetails h4 {
     font-style: italic !important;
     color: #ec5242;
     padding: 0;
     margin: 0;
-  }
-
-  .quotes a {
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
-    font-size: 12px;
   }
 
   .speakers h2 {
@@ -291,6 +302,11 @@
     border-color: #ec5242;
     width: 25px;
     margin-bottom: 15px;
+  }
+
+  .partnerLogo {
+    width: 125px;
+    height: 40px;
   }
 
   .partnersContainer .partnerLogo {
@@ -362,6 +378,7 @@
     text-align: center;
     line-height: 2;
     height: auto;
+    font-family: 'Lato', sans-serif;
   }
 
   .aboutImageDiv {
@@ -373,21 +390,6 @@
 
   .aboutImageDiv h1 {
     text-align: center;
-  }
-
-  .aboutImageDiv h3 {
-    font-weight: 300;
-    color: #f9412b;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-  .partnerLogo {
-    width: 125px;
-    height: 40px;
   }
 
   .events {
@@ -528,5 +530,9 @@
 
   .menu {
     display: none;
+  }
+
+  .programSocial {
+    margin-top: 23px;
   }
 }

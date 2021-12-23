@@ -5,6 +5,7 @@ html {
   background-color: #fff;
   font-family: 'Cocogoose', sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -41,6 +42,13 @@ h1 {
     padding-right: 150px;
   }
 
+  .quotes a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 0.85rem;
+  }
+
   .bigMenu ul a {
     display: none;
   }
@@ -71,14 +79,13 @@ h1 {
     color: rgb(82, 79, 79);
     font-size: 40px;
     margin: 20px;
-    border: 2px solid red;
   }
 
   .menu {
     position: fixed;
     transform: translateY(-100%);
     transition: transform 0.2s;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -89,7 +96,7 @@ h1 {
     list-style: none;
     padding-top: 4rem;
     padding-left: 2rem;
-    height: 95vh;
+    height: 100%;
   }
 
   .menuItem {
@@ -99,7 +106,8 @@ h1 {
     line-height: 44px;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #ec5242;
+    text-decoration: none;
   }
 
   .showMenu {
@@ -194,6 +202,29 @@ h1 {
     font-weight: 500;
   }
 
+  .allPrograms h3 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+  }
+
+  .speakerDetails h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 6px;
+  }
+
+  .aboutImageDiv h3 {
+    padding-top: 40px;
+    font-weight: 300;
+    color: #f9412b;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
   .programCards div h3 {
     color: #ec5242;
     font-size: 20px;
@@ -217,12 +248,6 @@ h1 {
     background: #ec5242;
     text-align: center;
     padding-top: 1px;
-  }
-
-  .allPrograms h3 {
-    font-family: 'Lato', sans-serif;
-    color: white;
-    font-size: 24px;
   }
 
   .speakersGrid {
@@ -250,27 +275,12 @@ h1 {
     place-self: start;
   }
 
-  .speakerDetails h3 {
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-    font-family: 'lato', sans-serif;
-    margin-bottom: 6px;
-  }
-
   .speakerDetails h4 {
     font-size: 0.95rem;
     color: #ec5242;
     text-align: left;
     padding: 0;
     margin: 0;
-  }
-
-  .quotes a {
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
-    font-size: 0.85rem;
   }
 
   .speakers h2 {
@@ -355,7 +365,7 @@ h1 {
     font-family: 'Lato', sans-serif;
     line-height: 1.2;
     color: #a5a1a1;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .aboutFooter {
@@ -365,15 +375,6 @@ h1 {
 
   .aboutImageDiv h1 {
     text-align: center;
-  }
-
-  .aboutImageDiv h3 {
-    padding-top: 40px;
-    font-weight: 300;
-    color: #f9412b;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
   }
 
   .aboutTextBox {
