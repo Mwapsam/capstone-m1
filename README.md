@@ -2,7 +2,7 @@
 
 # Module 1 - Capstone Project
 
-> Building my first Captone project to apply the concepts learned in order to enhance my skills in HTML, CSS & JavaScript.
+> Building my first Capstone project to apply the concepts learned in order to enhance my skills in HTML, CSS & JavaScript.
 
 ![screenshot](./assets/img/Screenshot-desktop.png)
 
