@@ -19,8 +19,16 @@
   <body>
     <nav class="smallMenu">
       <ul class="darkMenu">
-        <li><a href="#"><i class="fa fa-facebook social" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter social" aria-hidden="true"></i></a></li>
+        <li>
+          <a href="#"
+            ><i class="fa fa-facebook social" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa fa-twitter social" aria-hidden="true"></i
+          ></a>
+        </li>
         <li><a href="#">English</a></li>
         <li><a href="#">My Profile</a></li>
         <li><a href="#">Logout</a></li>
@@ -28,9 +36,11 @@
     </nav>
     <nav class="bigMenu">
       <ul>
-       <li><a class="logo" href="#"
-          ><img src="assets/img/coincity.png" alt="Logo image"
-        /></a></li> 
+        <li>
+          <a class="logo" href="#"
+            ><img src="assets/img/coincity.png" alt="Logo image"
+          /></a>
+        </li>
         <li><a href="index.html">Home</a></li>
         <li><a href="#">Program</a></li>
         <li><a href="about.html">About</a></li>
@@ -44,6 +54,11 @@
         <i class="menuIcon material-icons">menu</i>
         <i class="closeIcon material-icons">close</i>
       </button>
+      <ul class="menu">
+        <li><a class="menuItem" href="#">Portfolio</a></li>
+        <li><a class="menuItem" href="#">About</a></li>
+        <li><a class="menuItem" href="#">Contact</a></li>
+      </ul>
       <div class="imageDiv">
         <h3>
           "Blockchain & AI, <br />
@@ -121,152 +136,38 @@
     <section class="speakers">
       <h2>Featured Speakers</h2>
       <hr class="programLine" />
-      <div class="speakersContainer">
-        <div class="speakersGrid">
-          <div class="gridImage">
-            <img src="assets/img/nolan.png" alt="Nolan's Portrait" />
-          </div>
-          <div class="speakerDetails">
-            <h3>Nolan Myers</h3>
-            <h4>CEO at DoubleGDP</h4>
-            <p class="quotes">
-              <i
-                ><a href="#"
-                  >Another interesting trend of the last year has been the rapid
-                  mainstreaming of crypto ideas such as coins
-                </a></i
-              >
-            </p>
-          </div>
-        </div>
-        <div class="speakersGrid">
-          <div class="gridImage">
-            <img src="assets/img/vitalik.png" alt="Jack Ma's Portrait" />
-          </div>
-          <div class="speakerDetails">
-            <h3>Vitalik</h3>
-            <h4>Founder of Ethereum</h4>
-            <p class="quotes">
-              <i
-                ><a href="#"
-                  >We're even seeing projects with varying degrees of
-                  radicalness - Cul de sac, Telosa, CityDAO, Nkwashi, Prospera
-                  and many more
-                </a></i
-              >
-            </p>
-          </div>
-        </div>
-        <div class="speakersGrid">
-          <div class="gridImage">
-            <img src="assets/img/jackma.png" alt="Jack Ma's Portrait" />
-          </div>
-          <div class="speakerDetails">
-            <h3>Vitalik</h3>
-            <h4>Special thanks to Mr Silly and Tina Zhen</h4>
-            <p class="quotes">
-              <i
-                ><a href="#"
-                  >Another interesting trend of the last year has been the rapid
-                  mainstreaming of crypto ideas such as coins
-                </a></i
-              >
-            </p>
-          </div>
-        </div>
-        <div class="speakersGrid">
-          <div class="gridImage">
-            <img src="assets/img/mwiya.png" alt="Jack Ma's Portrait" />
-          </div>
-          <div class="speakerDetails">
-            <h3>Vitalik</h3>
-            <h4>Special thanks to Mr Silly and Tina Zhen</h4>
-            <p class="quotes">
-              <i
-                ><a href="#"
-                  >Another interesting trend of the last year has been the rapid
-                  mainstreaming of crypto ideas such as coins
-                </a></i
-              >
-            </p>
-          </div>
-        </div>
-        <div class="speakersGrid">
-          <div class="gridImage">
-            <img src="assets/img/sid.png" alt="Jack Ma's Portrait" />
-          </div>
-          <div class="speakerDetails">
-            <h3>Vitalik</h3>
-            <h4>Special thanks to Mr Silly and Tina Zhen</h4>
-            <p class="quotes">
-              <i
-                ><a href="#"
-                  >Another interesting trend of the last year has been the rapid
-                  mainstreaming of crypto ideas such as coins
-                </a></i
-              >
-            </p>
-          </div>
-        </div>
-        <div class="speakersGrid">
-          <div class="gridImage">
-            <img src="assets/img/open-ai-ceo.png" alt="Jack Ma's Portrait" />
-          </div>
-          <div class="speakerDetails">
-            <h3>Vitalik</h3>
-            <h4>Special thanks to Mr Silly and Tina Zhen</h4>
-            <p class="quotes">
-              <i
-                ><a href="#"
-                  >Another interesting trend of the last year has been the rapid
-                  mainstreaming of crypto ideas such as coins
-                </a></i
-              >
-            </p>
-          </div>
-        </div>
-      </div>
+      <div class="speakersContainer" id="speakers"></div>
     </section>
-    <section class="partners">
+    <section class="partnersContainer">
       <div class="partnersContainer">
-        <div class="mainTitle">
-          <h2>Partners</h2>
-          <hr class="programLine" />
-        </div>
-
-        <div class="partnersMain">
-          <div class="partnersItem">
-            <img
-              src="./assets/img/OpenAI.png"
-              width="250"
-              height="70"
-              alt="Open AI"
-            />
-          </div>
-          <div class="partnersItem">
-            <img
-              src="./assets/img/gitlab.png"
-              width="280"
-              height="100"
-              alt="Gitlab"
-            />
-          </div>
-          <div class="partnersItem">
-            <img
-              src="./assets/img/ETHEREUM-LOGO_PORTRAIT_Black_small.png"
-              width="210"
-              height="70"
-              alt="Ethereum"
-            />
-          </div>
-          <div class="partnersItem">
-            <img
-              src="./assets/img/doubleblack.png"
-              width="210"
-              height="70"
-              alt="Google"
-            />
-          </div>
+        <h2>Partners</h2>
+        <hr />
+        <div class="partnerLogo">
+          <img
+            src="assets/img/nkwashi.png"
+            class="partnerImage"
+            alt="google logo"
+          />
+          <img
+            src="assets/img/gitlab.png"
+            class="partnerImage"
+            alt="naver logo"
+          />
+          <img
+            src="assets/img/doubleblack.png"
+            class="partnerImage"
+            alt="daumkakao logo"
+          />
+          <img
+            src="assets/img/OpenAI.png"
+            class="partnerImage"
+            alt="airbnb logo"
+          />
+          <img
+            src="assets/img/ETHEREUM-LOGO_PORTRAIT_Black_small.png"
+            class="partnerImage"
+            alt="mozilla logo"
+          />
         </div>
       </div>
     </section>
@@ -286,5 +187,6 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
