@@ -68,25 +68,28 @@ h1 {
   .closeIcon {
     display: none;
     background: inherit;
-    color: #fff;
+    color: rgb(82, 79, 79);
+    font-size: 40px;
+    margin: 20px;
+    border: 2px solid red;
   }
 
   .menu {
-    position: absolute;
+    position: fixed;
     transform: translateY(-100%);
     transition: transform 0.2s;
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: #6070ff;
-    opacity: 0.9;
-    color: white;
+    background: #ececee;
+    opacity: 0;
+    color: #fff;
     list-style: none;
     padding-top: 4rem;
     padding-left: 2rem;
-    visibility: hidden;
+    height: 95vh;
   }
 
   .menuItem {
@@ -98,11 +101,10 @@ h1 {
     align-items: center;
     color: #fff;
   }
-  
+
   .showMenu {
     transform: translateY(0);
   }
-  
 
   .containerOne {
     background-image: url('../img/desktop.jpg');
@@ -112,6 +114,7 @@ h1 {
     width: 100%;
     margin-bottom: 12px;
     margin-top: 0;
+    position: relative;
   }
 
   .imageDiv {
@@ -513,5 +516,4 @@ h1 {
     border: 1px solid #d3d3d3;
     margin: 20px;
   }
-  
 }
