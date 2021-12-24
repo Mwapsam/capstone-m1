@@ -20,9 +20,10 @@ body {
 }
 
 h1 {
-  font-size: 40px;
-  margin-bottom: 12px;
+  font-size: 42px;
   color: #ec5242;
+  margin: 5px;
+  line-height: 1.3;
 }
 
 @media screen and (max-width: 768px) {
@@ -366,11 +367,6 @@ h1 {
     line-height: 1.2;
     color: #a5a1a1;
     font-size: 16px;
-  }
-
-  .aboutFooter {
-    background: #000;
-    height: 300px;
   }
 
   .aboutImageDiv h1 {
