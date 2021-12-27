@@ -1,0 +1,537 @@
+@media screen and (min-width: 768px) {
+  .smallMenu {
+    background-color: #272a31;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+  }
+
+  .darkMenu {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 135px;
+    padding-top: 5px;
+    margin-top: 0;
+  }
+
+  .social {
+    font-size: 15px;
+  }
+
+  time {
+    line-height: 38px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #504f4f;
+  }
+
+  .darkMenu li {
+    margin-right: 15px;
+  }
+
+  .quotes a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 12px;
+  }
+
+  .darkMenu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .bigMenu {
+    display: block;
+    background-color: #fff;
+  }
+
+  .bigMenu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 150px;
+  }
+
+  .bigMenu ul a {
+    display: block;
+    color: #afafaf;
+    font-size: 15px;
+    font-weight: 50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .bigMenu ul a:hover {
+    color: #ec5242;
+  }
+
+  .webinar {
+    border: solid #d84d40;
+    border-width: 5px;
+    border-radius: 5px;
+  }
+
+  .logo {
+    display: block;
+    margin-right: 550px;
+  }
+
+  .logo img {
+    height: 30px;
+    width: auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .containerOne {
+    background-image: url('../img/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+  }
+
+  .imageDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    margin-bottom: 6px;
+  }
+
+  .imageDiv h5 {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #504f4f;
+    font-size: 20px;
+  }
+
+  .imageDiv h3 {
+    font-family: 'Lato', sans-serif;
+    color: #d84d40;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+  }
+
+  .imageDiv h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .imageDiv p {
+    font-family: 'Lato', sans-serif;
+    border: 3px solid white;
+    background-color: #fff;
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 71%;
+  }
+
+  .textBox {
+    width: 65%;
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+  .progContainer {
+    display: flex;
+    flex-direction: row;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .programCards {
+    background-color: #222223;
+    margin: 0 0 0 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    width: 500px !important;
+    height: auto;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .programCards:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
+  }
+
+  .allPrograms h3 {
+    margin: 0 auto;
+    height: 70px;
+    text-decoration: honeydew;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+    width: 400px;
+  }
+
+  .speakerDetails h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aboutImageDiv h3 {
+    font-weight: 413;
+    color: #f9412b;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .programCards div h3 {
+    color: #ec5242;
+    font-size: 19px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 90px;
+    margin-top: 37px;
+  }
+
+  .programs {
+    background: #000;
+    padding-bottom: 12px;
+  }
+
+  .programs h2 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .programLine {
+    width: 35px;
+    height: 3px;
+    background-color: #ec5242;
+  }
+
+  .allPrograms hr {
+    width: 200px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 0;
+  }
+
+  .speakersGrid {
+    height: auto;
+    background: white;
+    margin: 15px 15px 10px 15px;
+    border-bottom: solid;
+    border-color: rgb(219, 214, 214);
+    border-width: 1px;
+    display: flex;
+    padding-bottom: 35px;
+  }
+
+  .speakersContainer {
+    padding: 50px 200px 50px 200px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+  }
+
+  .gridImage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gridImage img {
+    max-width: 120px;
+    max-height: 130px;
+  }
+
+  .speakerDetails {
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speakerDetails h4 {
+    font-style: italic !important;
+    color: #ec5242;
+    padding: 0;
+    margin: 0;
+  }
+
+  .speakers h2 {
+    text-align: center;
+  }
+
+  .partnersContainer {
+    background-color: #414246;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    height: 300px;
+  }
+
+  .partnersContainer h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .partnersContainer hr {
+    text-align: center;
+    border-color: #ec5242;
+    width: 25px;
+    margin-bottom: 15px;
+  }
+
+  .partnerLogo {
+    width: 125px;
+    height: 40px;
+  }
+
+  .partnersContainer .partnerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .partnersContainer .partnerImage {
+    margin: 30px 40px 0 35px;
+    width: 125px;
+    height: 40px;
+  }
+
+  .mainTitle h2 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .footerDiv {
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 15px;
+    height: 150px;
+  }
+
+  .patents {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .coincityLogo {
+    align-self: center;
+    font-weight: 600;
+    font-size: 24px;
+    width: 100%;
+    text-align: end;
+  }
+
+  .footerText {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #e6e4e4;
+    font-size: 16px;
+    width: 80%;
+    padding-left: 12px;
+  }
+
+  .aboutTextBox {
+    padding: 15px;
+    border: 1px solid #d3d3d3;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 550;
+    color: #575757;
+    background-color: #fff;
+    text-align: center;
+    line-height: 2;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .aboutImageDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    margin-bottom: 6px;
+  }
+
+  .aboutImageDiv h1 {
+    text-align: center;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #d3d3d3;
+  }
+
+  .event_list {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .events h2 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .events hr {
+    text-align: center;
+    width: 25px;
+    margin-bottom: 15px;
+    color: #ec5242;
+    background-color: #ec5242;
+    height: 2px;
+    border: none;
+  }
+
+  .events p {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 30px;
+    color: #272a31;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .events .event_image {
+    width: 90%;
+    max-width: 90%;
+    max-height: 90%;
+    height: auto;
+  }
+
+  .events .orange {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    background-color: #f45437c2;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .events .event_container {
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    color: white;
+  }
+
+  .events .date {
+    font-size: 35px;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  .events .description {
+    font-size: 20px;
+  }
+
+  .locale {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #504f4f;
+    font-size: 20px;
+  }
+
+  .mail {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color: #504f4f;
+    font-size: 14px;
+  }
+
+  .commons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .commons h2 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .commons hr {
+    text-align: center;
+    width: 25px;
+    margin-bottom: 15px;
+    color: #ec5242;
+    background-color: #ec5242;
+    height: 2px;
+    border: none;
+  }
+
+  .commons p {
+    font-size: 12px;
+    font-weight: 550;
+    text-align: center;
+    padding: 0 30px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+  }
+
+  .commons .commons_logo {
+    width: 26%;
+    border: 1px solid #d3d3d3;
+    margin: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .programSocial {
+    margin-top: 23px;
+  }
+}
